@@ -63,7 +63,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
 
   // Gửi dữ liệu lên Google Sheets nhưng không chờ phản hồi
   fetch(
-    "https://script.google.com/macros/s/AKfycbyYZgOJ-LA_u1hjAAIAGF2Ni7zDQKSBeHBD_Unymbmbt-ZFio9-xqFA_qeBmOKtfvxI/exec",
+    "https://script.google.com/macros/s/AKfycbyr9EmNDvUWElglcr_Chz15L2bZjaX_SwmrufEwHw4zm0dP1pyNHekEn-ggNptDTbe_/exec",
     {
       // Thay bằng URL Web App từ Apps Script
       method: "POST",
